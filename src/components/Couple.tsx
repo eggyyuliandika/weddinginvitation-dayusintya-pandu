@@ -75,7 +75,7 @@ export default function Couple() {
               </p>
 
               <div className="mt-4 text-center text-[#7a6758]">
-                <p>Ida Bagus Anom Pradnya Wira Putra</p>
+                <p>Ida Bagus Anom Pradnyana Wira Putra</p>
 
                 <p className="italic text-2xl my-2">&</p>
 
