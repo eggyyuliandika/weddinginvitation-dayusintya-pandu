@@ -17,7 +17,7 @@ type Props = {
 
 export default function UndanganPage({ params }: Props) {
   const { nama } = use(params);
-  const guestName = decodeURIComponent(nama).replace(/-/g, "-");
+  const guestName = decodeURIComponent(nama).replace(/-/g, " ");
 
   return (
     <main>
