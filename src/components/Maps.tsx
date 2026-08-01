@@ -8,7 +8,7 @@ const location = {
 
 export default function Maps() {
   return (
-    <section id="location" className="bg-[#f3efef] py-20 px-5 md:px-10">
+    <section id="location" className="bg-[#f3efef] pb-20 px-5 md:px-10">
       <div className="max-w-5xl mx-auto">
         {/* Quote */}
         <div className="text-center mb-16">
