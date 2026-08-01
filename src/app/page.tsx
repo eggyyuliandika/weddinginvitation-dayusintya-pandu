@@ -9,6 +9,7 @@ import GuestBook from "@/components/GuestBook";
 import MusicPlayer from "@/components/MusicPlayer";
 import FloatingNav from "@/components/FloatingNav";
 import QuoteSection from "@/components/QuoteSection";
+import Maps from "@/components/Maps";
 
 interface Props {
   params: Promise<{ nama: string }>;
@@ -27,6 +28,7 @@ export default async function UndanganPage({ params }: Props) {
       <Couple />
       <Countdown />
       <Event />
+      <Maps />
       <Gallery />
       <Gift />
       <GuestBook guestName={guestName} />
