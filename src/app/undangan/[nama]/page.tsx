@@ -8,6 +8,7 @@ import GuestBook from "@/components/GuestBook";
 import MusicPlayer from "@/components/MusicPlayer";
 import FloatingNav from "@/components/FloatingNav";
 import QuoteSection from "@/components/QuoteSection";
+import Maps from "@/components/Maps";
 import { Suspense } from "react";
 import { use } from "react";
 
@@ -28,6 +29,7 @@ export default function UndanganPage({ params }: Props) {
       <Couple />
       <Countdown />
       <Event />
+      <Maps />
       <Gallery />
       <Gift />
       <GuestBook guestName={guestName} />
